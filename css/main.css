@@ -14,16 +14,18 @@ header h1 {
   font-size: 1.5rem;
 }
 
-a {
+li a {
   color: #8f2440;
-  font-family: "PT Serif";
+  font-family: "PT Sans";
   font-weight: bold;
   text-decoration: none;
+  font-size: 1.125rem;
 }
 
+
 img {
-  height: 20em;
-  width: 30em;
+  height: 22em;
+  width: 100%;
 }
 
 a:hover {
@@ -34,11 +36,12 @@ a:hover {
 figure figcaption {
   font-family: "PT Serif";
   font-style: italic;
+  font-weight: normal;
   font-size: .8rem;
   text-align: center;
 }
 
-p:first-of-type {
+figure + p {
   font-family: "PT Serif";
   font-weight: bold;
 }
@@ -120,6 +123,7 @@ small {
   font-size: .8rem;
 }
 
-aside a {
-  font-weight: normal;
+small > a {
+  color: #8f2440;
+  text-decoration: none;
 }
