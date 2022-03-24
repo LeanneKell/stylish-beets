@@ -14,14 +14,13 @@ header h1 {
   font-size: 1.5rem;
 }
 
-li a {
+a {
   color: #8f2440;
   font-family: "PT Sans";
   font-weight: bold;
   text-decoration: none;
   font-size: 1.125rem;
 }
-
 
 img {
   height: 22em;
@@ -125,5 +124,8 @@ small {
 
 small > a {
   color: #8f2440;
+  font-family: "PT Serif";
   text-decoration: none;
+  font-weight: lighter;
+  font-size: .8rem;
 }
