@@ -21,8 +21,9 @@ a {
   text-decoration: none;
 }
 
-img{
+img {
   height: 20em;
+  width: 30em;
 }
 
 a:hover {
@@ -45,7 +46,7 @@ p:first-of-type {
 p:nth-of-type(2+3) {
   font-family: "PT Serif";
   font-weight: normal;
-  font-size: .8rem;
+  font-size: 1.5rem;
 }
 
 blockquote {
